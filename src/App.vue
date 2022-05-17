@@ -2,24 +2,25 @@
  * @Author: J_in
  * @Date: 2022-05-17 10:40:49
  * @LastEditors: J_in
- * @LastEditTime: 2022-05-17 10:46:37
+ * @LastEditTime: 2022-05-17 14:59:55
  * @FilePath: /jubilant-eureka/src/App.vue
 -->
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
-    <el-button>111</el-button>
+    <el-button type="primary">HTML篇</el-button>
+    <el-button type="success">CSS篇</el-button>
+    <el-button type="warning">JS篇</el-button>
+    <el-button type="danger">Vue篇</el-button>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+// import HelloWorld from './components/HelloWorld.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    // HelloWorld
   }
 }
 </script>
