@@ -2,15 +2,13 @@
  * @Author: J_in
  * @Date: 2022-05-17 10:40:49
  * @LastEditors: J_in
- * @LastEditTime: 2022-05-17 14:59:55
+ * @LastEditTime: 2022-05-23 17:35:46
  * @FilePath: /jubilant-eureka/src/App.vue
 -->
 <template>
   <div id="app">
-    <el-button type="primary">HTML篇</el-button>
-    <el-button type="success">CSS篇</el-button>
-    <el-button type="warning">JS篇</el-button>
-    <el-button type="danger">Vue篇</el-button>
+    <h1>hello，秋秋</h1>
+    <h2>放松一些，别那么累啦</h2>
   </div>
 </template>
 
